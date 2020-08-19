@@ -147,6 +147,12 @@ package = 'pallet-template'
 path = '../pallets/template'
 version = '2.0.0-rc5'
 
+[dependencies.erc20]
+default-features = false
+package = 'pallet-erc20'
+path = '../pallets/erc20'
+version = '2.0.0-rc5'
+
 [dependencies.timestamp]
 default-features = false
 git = 'https://github.com/paritytech/substrate.git'
